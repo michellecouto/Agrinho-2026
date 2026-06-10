@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+.topo{
+    height:20px;
+    background:#2e7d32;
+}
+
+.hero{
+    background-image: url("https://images.unsplash.com/photo-1500937386664-56d1dfef3854");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.overlay{
+    background: rgba(0,0,0,0.5);
+    min-height: 100vh;
+    text-align:center;
+    padding:60px 20px;
+}
+
+h1{
+    color:#1b5e20;
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+h2{
+    color:#81c784;
+    margin-bottom:30px;
+}
+
+.frase-principal{
+    color:white;
+    font-size:1.3rem;
+    max-width:900px;
+    margin:auto;
+    line-height:1.6;
+}
+
+button{
+    margin-top:30px;
+    padding:12px 30px;
+    border:none;
+    border-radius:8px;
+    background:white;
+    color:black;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#c8e6c9;
+}
+
+.oculto{
+    display:none;
+    margin-top:30px;
+    color:white;
+    max-width:900px;
+    margin-left:auto;
+    margin-right:auto;
+    line-height:1.8;
+    background:rgba(0,0,0,0.4);
+    padding:20px;
+    border-radius:10px;
+}
+
+.perguntas{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    padding:50px 20px;
+}
+
+.card{
+    background:white;
+    width:320px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+.icone{
+    font-size:50px;
+    margin-bottom:15px;
+}
+
+.card h3{
+    color:blue;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:black;
+    line-height:1.5;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+}
+
+.frase-final{
+    color:green;
+    font-size:1.4rem;
+    font-weight:bold;
+}
